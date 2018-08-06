@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_item_one"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Daily Thoughts" />
+        <item
+            android:id="@+id/nav_item_two"
+            android:icon="@android:drawable/star_big_on"
+            android:title="Trending" />
+        <item
+            android:id="@+id/nav_item_three"
+            android:icon="@android:drawable/stat_sys_download_done"
+            android:title="Saved Status" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_item_c_one"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="Share App" />
+            <item
+                android:id="@+id/nav_item_c_two"
+                android:icon="@android:drawable/ic_dialog_dialer"
+                android:title="More App" />
+        </menu>
+    </item>
+</menu>
