@@ -5,15 +5,15 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_item_one"
+            android:id="@+id/nav_item_home"
             android:icon="@android:drawable/ic_menu_gallery"
-            android:title="Daily Thoughts" />
+            android:title="Home" />
         <item
-            android:id="@+id/nav_item_two"
+            android:id="@+id/nav_item_trend"
             android:icon="@android:drawable/star_big_on"
             android:title="Trending" />
         <item
-            android:id="@+id/nav_item_three"
+            android:id="@+id/nav_item_saved"
             android:icon="@android:drawable/stat_sys_download_done"
             android:title="Saved Status" />
     </group>
@@ -21,11 +21,15 @@
     <item android:title="Communicate">
         <menu>
             <item
-                android:id="@+id/nav_item_c_one"
+                android:id="@+id/nav_item_c_request"
+                android:icon="@android:drawable/ic_input_add"
+                android:title="Request Status" />
+            <item
+                android:id="@+id/nav_item_c_share"
                 android:icon="@android:drawable/ic_menu_share"
                 android:title="Share App" />
             <item
-                android:id="@+id/nav_item_c_two"
+                android:id="@+id/nav_item_c_more"
                 android:icon="@android:drawable/ic_dialog_dialer"
                 android:title="More App" />
         </menu>
