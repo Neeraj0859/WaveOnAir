@@ -50,7 +50,7 @@
             android:textSize="18sp" />
 
         <TextView
-            android:id="@+id/Punjabi_btn"
+            android:id="@+id/punjabi_btn"
             android:layout_width="110dp"
             android:layout_height="match_parent"
             android:gravity="center"
@@ -61,7 +61,7 @@
             android:textSize="18sp" />
 
         <TextView
-            android:id="@+id/Gujarati_btn"
+            android:id="@+id/gujarati_btn"
             android:layout_width="110dp"
             android:layout_height="match_parent"
             android:gravity="center"

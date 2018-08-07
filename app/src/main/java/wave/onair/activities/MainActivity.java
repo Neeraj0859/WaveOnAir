@@ -1,4 +1,4 @@
-package wave.onair;
+package wave.onair.activities;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -9,6 +9,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Gravity;
 import android.view.MenuItem;
+
+import wave.onair.R;
+import wave.onair.fragements.saved;
+import wave.onair.fragements.status;
+import wave.onair.fragements.trending;
 
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
@@ -35,10 +40,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         navigationView = findViewById(R.id.nav_drawer);
         navigationView.setNavigationItemSelectedListener(this);
 
-
         drawer = findViewById(R.id.drawer);
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, app_bar, R.string.drawer_is_open,
-                R.string.drawer_is_close);
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, app_bar,
+                R.string.drawer_is_open, R.string.drawer_is_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
     }

@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".status">
+    tools:context=".fragements.status">
 
 
     <include layout="@layout/horizontal_scrollview" />
